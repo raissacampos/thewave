@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2D90A6;
+    font-family: 'Barlow';
+}
+
+
+.colunas {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    padding-left: 60px;
+}
+
+.logo img{
+    width: 170px;
+}
+.menu {
+    flex-wrap: wrap;
+}
+
+.menu ul {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    padding-right: 120px;
+}
+
+.menu ul li {
+    list-style: none;
+    padding-right: 70px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+
+form {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 30px 40px;
+    width: 50%;
+    border-radius: 10px;
+    justify-content: center;
+    display: inline-block;
+    align-items: center;
+    margin-top: 9%;
+}
+
+
+label {
+    color: #000;
+    font-size: 20px;
+}
+
+input {
+    width: 180px;
+    height: 25px;
+    border-radius: 8px;
+    border: 1px solid #000;
+}
+
+button {
+    margin-top: 30px;
+    background-color: #2D90A6;
+    border: 1px solid #fff;
+    width: 150px;
+    height: 30px;
+    border-radius: 8px;
+}
+
+button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h1 {
+    color: #216979;
+    font-size: 40px;
+}
+
+div {
+    text-align: center;
+    align-items: center;
+    color: #fff;
+}
+
+.botao button {
+    width: 60%;
+    background-color: #D96B62;
+    border-radius: 0%;
+    align-items: center;
+    text-align: center;
+    margin-left: 2%;
+    height: 35px;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #D96B62;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    margin-top: 262px;
+}
+
+.esquerda1 {
+    margin-top: 50px;
+}
+
+.esquerda1 h3 {
+    font-size: 20px;
+    font: lighter;
+}
+
+.esquerda1 h3 a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+hr {
+    width: 500%;
+}
+
+.direita1 img {
+    width: 11%;
+}

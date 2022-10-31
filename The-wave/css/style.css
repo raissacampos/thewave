@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow';
+    width: 100%;
+}
+
+.primario {
+    background-image: url(../img/image\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 760px;
+    width: 100%;
+}
+
+.colunas {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF6E;
+}
+
+.logo {
+    padding-left: 60px;
+}
+
+.menu {
+    flex-wrap: wrap;
+}
+
+.menu ul {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    padding-right: 120px;
+}
+
+.menu ul li {
+    list-style: none;
+    padding-right: 70px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.titulo1 {
+    text-align: center;
+    margin-top: 250px;
+    color: #ffff;
+    flex-wrap: wrap;
+}
+
+.titulo1 h1 {
+    font-size: 64px;
+}
+
+.titulo1 p {
+    font-size: 18px;
+}
+
+.titulo1 button {
+    margin-top: 16px;
+    width: 150px;
+    height: 35px;
+    background-color: #D96B62;
+    border: transparent;
+    border-radius: 5px;
+}
+
+.titulo1 button a {
+    text-decoration: none;
+    color: #ffff;
+    font-size: 16px;
+}
+
+.parte2 {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    margin-top: 95px;
+}
+
+
+.direita h1 {
+    font-size: 64px;
+}
+
+.direita p {
+    font-size: 20px;
+}
+
+.direita button {
+    margin-top: 16px;
+    width: 150px;
+    height: 35px;
+    background-color: #D96B62;
+    border: transparent;
+    border-radius: 5px;
+}
+
+.direita button a {
+    text-decoration: none;
+    color: #ffff;
+    font-size: 16px;
+}
+
+.esquerda h1 {
+    font-size: 64px;
+}
+
+.esquerda p {
+    font-size: 20px;
+}
+
+.esquerda button {
+    margin-top: 16px;
+    width: 150px;
+    height: 35px;
+    background-color: #D96B62;
+    border: transparent;
+    border-radius: 5px;
+}
+
+.esquerda button a {
+    text-decoration: none;
+    color: #ffff;
+    font-size: 16px;
+}
+
+.parte3 {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.imagem {
+    margin-top: 130px;
+    background-image: url(../img/Group\ 5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 894px;
+    text-align: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.imagem h1 {
+    font-size: 64px;
+}
+
+.imagem h2 {
+    font-size: 20px;
+    font: lighter;
+}
+
+.texto h1 {
+    padding-top: 350px;
+}
+
+footer {
+    background-color: #D96B62;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    margin-top: 262px;
+}
+
+.esquerda1 {
+    margin-top: 50px;
+}
+
+.esquerda1 h3 {
+    font-size: 20px;
+    font: lighter;
+}
+
+.esquerda1 h3 a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+hr {
+    width: 500%;
+}
+
+.direita1 img{
+    width: 11%;
+}
